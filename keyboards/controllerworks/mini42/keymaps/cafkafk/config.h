@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#define TAPPING_TERM 200
+#define TAPPING_TERM 150
 
 // NOTE This is premade, I didn't do any of the stuff below, it's some rgb thingy (praise kevin)
 
