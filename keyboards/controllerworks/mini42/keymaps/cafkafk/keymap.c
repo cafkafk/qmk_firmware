@@ -41,7 +41,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       } else {
         layer_off(6);
         if (timer_elapsed(my_hash_timer) < TAPPING_TERM) {
-          SEND_STRING("("); // Change the character(s) to be sent on tap here
+          SEND_STRING(")"); // Change the character(s) to be sent on tap here
         }
       }
       return false; // We handled this keypress
@@ -114,7 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [5] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       LT(4,KC_TAB),   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_Y), RSFT(KC_U), RSFT(KC_I),    RSFT(KC_O),   RSFT(KC_P),    KC_BSLS,
-      LGUI_T(KC_ESC), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_H), RSFT(KC_J), RSFT(KC_K),    RSFT(KC_L),   RSFT(KC_SCLN), KC_QUOT,
+      LGUI_T(KC_ESC), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_H), RSFT(KC_J), RSFT(KC_K),    RSFT(KC_L),   RSFT(KC_SCLN), RSFT(KC_QUOT),
       XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_N), RSFT(KC_M), RSFT(KC_COMM), RSFT(KC_DOT), RSFT(KC_SLSH), XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
