@@ -113,7 +113,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* LEFT */
   [5] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      LT(4,KC_TAB),   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_Y), RSFT(KC_U), RSFT(KC_I),    RSFT(KC_O),   RSFT(KC_P),    KC_BSLS,
+      LT(4,KC_TAB),   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_Y), RSFT(KC_U), RSFT(KC_I),    RSFT(KC_O),   RSFT(KC_P),    RSFT(KC_BSLS),
       LGUI_T(KC_ESC), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_H), RSFT(KC_J), RSFT(KC_K),    RSFT(KC_L),   RSFT(KC_SCLN), RSFT(KC_QUOT),
       XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   RSFT(KC_N), RSFT(KC_M), RSFT(KC_COMM), RSFT(KC_DOT), RSFT(KC_SLSH), XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
